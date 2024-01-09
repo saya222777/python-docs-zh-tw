@@ -3202,14 +3202,15 @@
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#codeobject.co_flags"><code class="docutils literal notranslate"><span class="pre">codeobject.co_flags</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l6"><a class="reference internal" href="reference/datamodel.html#the-co-positions-method">3.2.13.1.2. The <code class="xref py py-meth docutils literal notranslate"><span class="pre">co_positions()</span></code> method</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="reference/datamodel.html#methods-on-code-objects">3.2.13.1.2. Methods on code objects</a><ul>
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#codeobject.co_positions"><code class="docutils literal notranslate"><span class="pre">codeobject.co_positions()</span></code></a></li>
+<li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#codeobject.co_lines"><code class="docutils literal notranslate"><span class="pre">codeobject.co_lines()</span></code></a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l5"><a class="reference internal" href="reference/datamodel.html#frame-objects">3.2.13.2. Frame objects</a><ul>
-<li class="toctree-l6"><a class="reference internal" href="reference/datamodel.html#index-63">3.2.13.2.1. Special read-only attributes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="reference/datamodel.html#index-64">3.2.13.2.1. Special read-only attributes</a><ul>
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#frame.f_back"><code class="docutils literal notranslate"><span class="pre">frame.f_back</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#frame.f_code"><code class="docutils literal notranslate"><span class="pre">frame.f_code</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#frame.f_locals"><code class="docutils literal notranslate"><span class="pre">frame.f_locals</span></code></a></li>
@@ -3218,7 +3219,7 @@
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#frame.f_lasti"><code class="docutils literal notranslate"><span class="pre">frame.f_lasti</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l6"><a class="reference internal" href="reference/datamodel.html#index-64">3.2.13.2.2. 特殊可寫屬性</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="reference/datamodel.html#index-65">3.2.13.2.2. 特殊可寫屬性</a><ul>
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#frame.f_trace"><code class="docutils literal notranslate"><span class="pre">frame.f_trace</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#frame.f_trace_lines"><code class="docutils literal notranslate"><span class="pre">frame.f_trace_lines</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="reference/datamodel.html#frame.f_trace_opcodes"><code class="docutils literal notranslate"><span class="pre">frame.f_trace_opcodes</span></code></a></li>
@@ -4919,6 +4920,7 @@
 <li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.HTMLCalendar.formatmonth"><code class="docutils literal notranslate"><span class="pre">HTMLCalendar.formatmonth()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.HTMLCalendar.formatyear"><code class="docutils literal notranslate"><span class="pre">HTMLCalendar.formatyear()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.HTMLCalendar.formatyearpage"><code class="docutils literal notranslate"><span class="pre">HTMLCalendar.formatyearpage()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.HTMLCalendar.formatmonthname"><code class="docutils literal notranslate"><span class="pre">HTMLCalendar.formatmonthname()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.HTMLCalendar.cssclasses"><code class="docutils literal notranslate"><span class="pre">HTMLCalendar.cssclasses</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.HTMLCalendar.cssclass_noday"><code class="docutils literal notranslate"><span class="pre">HTMLCalendar.cssclass_noday</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.HTMLCalendar.cssclasses_weekday_head"><code class="docutils literal notranslate"><span class="pre">HTMLCalendar.cssclasses_weekday_head</span></code></a></li>
@@ -4976,7 +4978,7 @@
 <li class="toctree-l5"><a class="reference internal" href="library/calendar.html#calendar.IllegalWeekdayError.weekday"><code class="docutils literal notranslate"><span class="pre">IllegalWeekdayError.weekday</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="library/calendar.html#command-line-usage">Command-Line Usage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="library/calendar.html#command-line-usage">命令列用法</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="library/collections.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">collections</span></code> --- 容器資料型態</a><ul>
@@ -5805,7 +5807,14 @@
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="library/random.html#alternative-generator">替代產生器</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="library/random.html#random.Random"><code class="docutils literal notranslate"><span class="pre">Random</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/random.html#random.Random"><code class="docutils literal notranslate"><span class="pre">Random</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="library/random.html#random.Random.seed"><code class="docutils literal notranslate"><span class="pre">Random.seed()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/random.html#random.Random.getstate"><code class="docutils literal notranslate"><span class="pre">Random.getstate()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/random.html#random.Random.setstate"><code class="docutils literal notranslate"><span class="pre">Random.setstate()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/random.html#random.Random.random"><code class="docutils literal notranslate"><span class="pre">Random.random()</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/random.html#random.Random.getrandbits"><code class="docutils literal notranslate"><span class="pre">Random.getrandbits()</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l5"><a class="reference internal" href="library/random.html#random.SystemRandom"><code class="docutils literal notranslate"><span class="pre">SystemRandom</span></code></a></li>
 </ul>
 </li>
@@ -6037,19 +6046,19 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="library/filesys.html">檔案與目錄存取</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="library/pathlib.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pathlib</span></code> --- Object-oriented filesystem paths</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="library/pathlib.html#basic-use">Basic use</a></li>
+<li class="toctree-l3"><a class="reference internal" href="library/pathlib.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pathlib</span></code> --- 物件導向檔案系統路徑</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="library/pathlib.html#basic-use">基本用法</a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/pathlib.html#pure-paths">純路徑</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#pathlib.PurePath"><code class="docutils literal notranslate"><span class="pre">PurePath</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#pathlib.PurePosixPath"><code class="docutils literal notranslate"><span class="pre">PurePosixPath</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#pathlib.PureWindowsPath"><code class="docutils literal notranslate"><span class="pre">PureWindowsPath</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#general-properties">通用特性</a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#general-properties">通用屬性</a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#operators">運算子</a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#accessing-individual-parts">Accessing individual parts</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#accessing-individual-parts">對個別組成的存取</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/pathlib.html#pathlib.PurePath.parts"><code class="docutils literal notranslate"><span class="pre">PurePath.parts</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#methods-and-properties">方法 (Method) 與特性 (Property)</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/pathlib.html#methods-and-properties">方法與屬性</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/pathlib.html#pathlib.PurePath.drive"><code class="docutils literal notranslate"><span class="pre">PurePath.drive</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/pathlib.html#pathlib.PurePath.root"><code class="docutils literal notranslate"><span class="pre">PurePath.root</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/pathlib.html#pathlib.PurePath.anchor"><code class="docutils literal notranslate"><span class="pre">PurePath.anchor</span></code></a></li>
@@ -6451,7 +6460,7 @@
 <li class="toctree-l4"><a class="reference internal" href="library/pickle.html#examples">範例</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="library/copyreg.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">copyreg</span></code> --- Register <code class="xref py py-mod docutils literal notranslate"><span class="pre">pickle</span></code> support functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="library/copyreg.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">copyreg</span></code> --- 註冊 <code class="xref py py-mod docutils literal notranslate"><span class="pre">pickle</span></code> 支援函式</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="library/copyreg.html#copyreg.constructor"><code class="docutils literal notranslate"><span class="pre">constructor()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/copyreg.html#copyreg.pickle"><code class="docutils literal notranslate"><span class="pre">pickle()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/copyreg.html#example">範例</a></li>
@@ -10680,7 +10689,7 @@
 <li class="toctree-l3"><a class="reference internal" href="library/ssl.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">ssl</span></code> --- socket 物件的 TLS/SSL 包裝器</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="library/ssl.html#functions-constants-and-exceptions">函式、常數與例外</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/ssl.html#socket-creation">Socket 建立</a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/ssl.html#context-creation">Context creation</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ssl.html#context-creation">語境建立</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ssl.html#ssl.create_default_context"><code class="docutils literal notranslate"><span class="pre">create_default_context()</span></code></a></li>
 </ul>
 </li>
@@ -13613,7 +13622,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="library/mm.html">多媒體服務</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="library/wave.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">wave</span></code> --- Read and write WAV files</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="library/wave.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">wave</span></code> --- 讀寫 WAV 檔案</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="library/wave.html#wave.open"><code class="docutils literal notranslate"><span class="pre">open()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/wave.html#wave.Error"><code class="docutils literal notranslate"><span class="pre">Error</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/wave.html#wave-read-objects">Wave_read 物件</a><ul>
@@ -14014,6 +14023,7 @@
 <li class="toctree-l4"><a class="reference internal" href="library/cmd.html#cmd.Cmd"><code class="docutils literal notranslate"><span class="pre">Cmd</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/cmd.html#cmd-objects">Cmd 物件</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/cmd.html#cmd.Cmd.cmdloop"><code class="docutils literal notranslate"><span class="pre">Cmd.cmdloop()</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/cmd.html#cmd.Cmd.do_help"><code class="docutils literal notranslate"><span class="pre">Cmd.do_help()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/cmd.html#cmd.Cmd.onecmd"><code class="docutils literal notranslate"><span class="pre">Cmd.onecmd()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/cmd.html#cmd.Cmd.emptyline"><code class="docutils literal notranslate"><span class="pre">Cmd.emptyline()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/cmd.html#cmd.Cmd.default"><code class="docutils literal notranslate"><span class="pre">Cmd.default()</span></code></a></li>
@@ -16036,15 +16046,15 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="library/builtins.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">builtins</span></code> --- 內建物件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="library/__main__.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">__main__</span></code> --- Top-level code environment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="library/__main__.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">__main__</span></code> --- 頂層程式碼環境</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="library/__main__.html#name-main"><code class="docutils literal notranslate"><span class="pre">__name__</span> <span class="pre">==</span> <span class="pre">'__main__'</span></code></a><ul>
-<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#what-is-the-top-level-code-environment">What is the &quot;top-level code environment&quot;?</a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#idiomatic-usage">Idiomatic Usage</a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#packaging-considerations">Packaging Considerations</a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#what-is-the-top-level-code-environment">什麼是「頂層程式碼環境」？</a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#idiomatic-usage">慣用 (Idiomatic) 用法</a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#packaging-considerations">打包時須考慮的事情</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="library/__main__.html#main-py-in-python-packages"><code class="docutils literal notranslate"><span class="pre">__main__.py</span></code> in Python Packages</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#id1">Idiomatic Usage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="library/__main__.html#main-py-in-python-packages">Python 套件中的 <code class="docutils literal notranslate"><span class="pre">__main__.py</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/__main__.html#id1">慣用 (Idiomatic) 用法</a></li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="library/__main__.html#import-main"><code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">__main__</span></code></a></li>
@@ -16800,9 +16810,9 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="library/language.html">Python Language Services</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="library/ast.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">ast</span></code> --- Abstract Syntax Trees</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="library/ast.html#abstract-grammar">Abstract Grammar</a></li>
-<li class="toctree-l4"><a class="reference internal" href="library/ast.html#node-classes">Node classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="library/ast.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">ast</span></code> --- 抽象語法樹 (Abstract Syntax Trees)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="library/ast.html#abstract-grammar">抽象文法 (Abstract Grammar)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="library/ast.html#node-classes">節點 (Node) 類別</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.AST"><code class="docutils literal notranslate"><span class="pre">AST</span></code></a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.AST._fields"><code class="docutils literal notranslate"><span class="pre">AST._fields</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.AST.lineno"><code class="docutils literal notranslate"><span class="pre">AST.lineno</span></code></a></li>
@@ -16811,14 +16821,14 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.AST.end_col_offset"><code class="docutils literal notranslate"><span class="pre">AST.end_col_offset</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#root-nodes">Root nodes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#root-nodes">根節點</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Module"><code class="docutils literal notranslate"><span class="pre">Module</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Expression"><code class="docutils literal notranslate"><span class="pre">Expression</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Interactive"><code class="docutils literal notranslate"><span class="pre">Interactive</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.FunctionType"><code class="docutils literal notranslate"><span class="pre">FunctionType</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#literals">Literals</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#literals">文本 (Literals)</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Constant"><code class="docutils literal notranslate"><span class="pre">Constant</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.FormattedValue"><code class="docutils literal notranslate"><span class="pre">FormattedValue</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.JoinedStr"><code class="docutils literal notranslate"><span class="pre">JoinedStr</span></code></a></li>
@@ -16828,7 +16838,7 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Dict"><code class="docutils literal notranslate"><span class="pre">Dict</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#variables">Variables</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#variables">變數</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Name"><code class="docutils literal notranslate"><span class="pre">Name</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Load"><code class="docutils literal notranslate"><span class="pre">Load</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Store"><code class="docutils literal notranslate"><span class="pre">Store</span></code></a></li>
@@ -16836,7 +16846,7 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Starred"><code class="docutils literal notranslate"><span class="pre">Starred</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#expressions">Expressions</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#expressions">運算式</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Expr"><code class="docutils literal notranslate"><span class="pre">Expr</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.UnaryOp"><code class="docutils literal notranslate"><span class="pre">UnaryOp</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.UAdd"><code class="docutils literal notranslate"><span class="pre">UAdd</span></code></a></li>
@@ -16876,12 +16886,12 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.IfExp"><code class="docutils literal notranslate"><span class="pre">IfExp</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Attribute"><code class="docutils literal notranslate"><span class="pre">Attribute</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.NamedExpr"><code class="docutils literal notranslate"><span class="pre">NamedExpr</span></code></a></li>
-<li class="toctree-l6"><a class="reference internal" href="library/ast.html#subscripting">Subscripting</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="library/ast.html#subscripting">下標 (Subscripting)</a><ul>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.Subscript"><code class="docutils literal notranslate"><span class="pre">Subscript</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.Slice"><code class="docutils literal notranslate"><span class="pre">Slice</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l6"><a class="reference internal" href="library/ast.html#comprehensions">Comprehensions</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="library/ast.html#comprehensions">綜合運算式 (comprehensions)</a><ul>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.ListComp"><code class="docutils literal notranslate"><span class="pre">ListComp</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.SetComp"><code class="docutils literal notranslate"><span class="pre">SetComp</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.GeneratorExp"><code class="docutils literal notranslate"><span class="pre">GeneratorExp</span></code></a></li>
@@ -16891,7 +16901,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#statements">Statements</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#statements">陳述式</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Assign"><code class="docutils literal notranslate"><span class="pre">Assign</span></code></a><ul>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.Assign.type_comment"><code class="docutils literal notranslate"><span class="pre">Assign.type_comment</span></code></a></li>
 </ul>
@@ -16903,7 +16913,7 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Delete"><code class="docutils literal notranslate"><span class="pre">Delete</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Pass"><code class="docutils literal notranslate"><span class="pre">Pass</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.TypeAlias"><code class="docutils literal notranslate"><span class="pre">TypeAlias</span></code></a></li>
-<li class="toctree-l6"><a class="reference internal" href="library/ast.html#imports">Imports</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="library/ast.html#imports">引入 (imports)</a><ul>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.Import"><code class="docutils literal notranslate"><span class="pre">Import</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.ImportFrom"><code class="docutils literal notranslate"><span class="pre">ImportFrom</span></code></a></li>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.alias"><code class="docutils literal notranslate"><span class="pre">alias</span></code></a></li>
@@ -16911,7 +16921,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#control-flow">Control flow</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#control-flow">流程控制</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.If"><code class="docutils literal notranslate"><span class="pre">If</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.For"><code class="docutils literal notranslate"><span class="pre">For</span></code></a><ul>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.For.type_comment"><code class="docutils literal notranslate"><span class="pre">For.type_comment</span></code></a></li>
@@ -16930,7 +16940,7 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.withitem"><code class="docutils literal notranslate"><span class="pre">withitem</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#pattern-matching">Pattern matching</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#pattern-matching">模式匹配 (pattern matching)</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Match"><code class="docutils literal notranslate"><span class="pre">Match</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.match_case"><code class="docutils literal notranslate"><span class="pre">match_case</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.MatchValue"><code class="docutils literal notranslate"><span class="pre">MatchValue</span></code></a></li>
@@ -16943,13 +16953,13 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.MatchOr"><code class="docutils literal notranslate"><span class="pre">MatchOr</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#type-parameters">Type parameters</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#type-parameters">型別參數 (type parameters)</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.TypeVar"><code class="docutils literal notranslate"><span class="pre">TypeVar</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.ParamSpec"><code class="docutils literal notranslate"><span class="pre">ParamSpec</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.TypeVarTuple"><code class="docutils literal notranslate"><span class="pre">TypeVarTuple</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#function-and-class-definitions">Function and class definitions</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#function-and-class-definitions">函式和類別定義</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.FunctionDef"><code class="docutils literal notranslate"><span class="pre">FunctionDef</span></code></a><ul>
 <li class="toctree-l7"><a class="reference internal" href="library/ast.html#ast.FunctionDef.type_comment"><code class="docutils literal notranslate"><span class="pre">FunctionDef.type_comment</span></code></a></li>
 </ul>
@@ -16968,7 +16978,7 @@
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.ClassDef"><code class="docutils literal notranslate"><span class="pre">ClassDef</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l5"><a class="reference internal" href="library/ast.html#async-and-await">Async and await</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="library/ast.html#async-and-await">async 和 await</a><ul>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.AsyncFunctionDef"><code class="docutils literal notranslate"><span class="pre">AsyncFunctionDef</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.Await"><code class="docutils literal notranslate"><span class="pre">Await</span></code></a></li>
 <li class="toctree-l6"><a class="reference internal" href="library/ast.html#ast.AsyncFor"><code class="docutils literal notranslate"><span class="pre">AsyncFor</span></code></a></li>
@@ -16977,7 +16987,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="library/ast.html#ast-helpers"><code class="xref py py-mod docutils literal notranslate"><span class="pre">ast</span></code> Helpers</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="library/ast.html#ast-helpers"><code class="xref py py-mod docutils literal notranslate"><span class="pre">ast</span></code> 輔助程式</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.parse"><code class="docutils literal notranslate"><span class="pre">parse()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.unparse"><code class="docutils literal notranslate"><span class="pre">unparse()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.literal_eval"><code class="docutils literal notranslate"><span class="pre">literal_eval()</span></code></a></li>
@@ -16999,13 +17009,13 @@
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.dump"><code class="docutils literal notranslate"><span class="pre">dump()</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="library/ast.html#compiler-flags">Compiler Flags</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="library/ast.html#compiler-flags">編譯器旗標</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.PyCF_ALLOW_TOP_LEVEL_AWAIT"><code class="docutils literal notranslate"><span class="pre">PyCF_ALLOW_TOP_LEVEL_AWAIT</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.PyCF_ONLY_AST"><code class="docutils literal notranslate"><span class="pre">PyCF_ONLY_AST</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/ast.html#ast.PyCF_TYPE_COMMENTS"><code class="docutils literal notranslate"><span class="pre">PyCF_TYPE_COMMENTS</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="library/ast.html#command-line-usage">Command-Line Usage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="library/ast.html#command-line-usage">命令列用法</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="library/symtable.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">symtable</span></code> --- 存取編譯器的符號表</a><ul>
@@ -17171,24 +17181,30 @@
 <li class="toctree-l4"><a class="reference internal" href="library/pyclbr.html#pyclbr.readmodule"><code class="docutils literal notranslate"><span class="pre">readmodule()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/pyclbr.html#pyclbr.readmodule_ex"><code class="docutils literal notranslate"><span class="pre">readmodule_ex()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="library/pyclbr.html#function-objects">函式物件</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.file"><code class="docutils literal notranslate"><span class="pre">Function.file</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.module"><code class="docutils literal notranslate"><span class="pre">Function.module</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.name"><code class="docutils literal notranslate"><span class="pre">Function.name</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.lineno"><code class="docutils literal notranslate"><span class="pre">Function.lineno</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.parent"><code class="docutils literal notranslate"><span class="pre">Function.parent</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.children"><code class="docutils literal notranslate"><span class="pre">Function.children</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.is_async"><code class="docutils literal notranslate"><span class="pre">Function.is_async</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function"><code class="docutils literal notranslate"><span class="pre">Function</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.file"><code class="docutils literal notranslate"><span class="pre">Function.file</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.module"><code class="docutils literal notranslate"><span class="pre">Function.module</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.name"><code class="docutils literal notranslate"><span class="pre">Function.name</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.lineno"><code class="docutils literal notranslate"><span class="pre">Function.lineno</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.parent"><code class="docutils literal notranslate"><span class="pre">Function.parent</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.children"><code class="docutils literal notranslate"><span class="pre">Function.children</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Function.is_async"><code class="docutils literal notranslate"><span class="pre">Function.is_async</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="library/pyclbr.html#class-objects">Class Objects</a><ul>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.file"><code class="docutils literal notranslate"><span class="pre">Class.file</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.module"><code class="docutils literal notranslate"><span class="pre">Class.module</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.name"><code class="docutils literal notranslate"><span class="pre">Class.name</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.lineno"><code class="docutils literal notranslate"><span class="pre">Class.lineno</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.parent"><code class="docutils literal notranslate"><span class="pre">Class.parent</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.children"><code class="docutils literal notranslate"><span class="pre">Class.children</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.super"><code class="docutils literal notranslate"><span class="pre">Class.super</span></code></a></li>
-<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.methods"><code class="docutils literal notranslate"><span class="pre">Class.methods</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class"><code class="docutils literal notranslate"><span class="pre">Class</span></code></a><ul>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.file"><code class="docutils literal notranslate"><span class="pre">Class.file</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.module"><code class="docutils literal notranslate"><span class="pre">Class.module</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.name"><code class="docutils literal notranslate"><span class="pre">Class.name</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.lineno"><code class="docutils literal notranslate"><span class="pre">Class.lineno</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.parent"><code class="docutils literal notranslate"><span class="pre">Class.parent</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.children"><code class="docutils literal notranslate"><span class="pre">Class.children</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.super"><code class="docutils literal notranslate"><span class="pre">Class.super</span></code></a></li>
+<li class="toctree-l6"><a class="reference internal" href="library/pyclbr.html#pyclbr.Class.methods"><code class="docutils literal notranslate"><span class="pre">Class.methods</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -17280,12 +17296,12 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="library/pickletools.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pickletools</span></code> --- Tools for pickle developers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="library/pickletools.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pickletools</span></code> --- pickle 開發者的工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="library/pickletools.html#command-line-usage">命令列用法</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/pickletools.html#command-line-options">命令列選項</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="library/pickletools.html#programmatic-interface">Programmatic Interface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="library/pickletools.html#programmatic-interface">程式化介面</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="library/pickletools.html#pickletools.dis"><code class="docutils literal notranslate"><span class="pre">dis()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/pickletools.html#pickletools.genops"><code class="docutils literal notranslate"><span class="pre">genops()</span></code></a></li>
 <li class="toctree-l5"><a class="reference internal" href="library/pickletools.html#pickletools.optimize"><code class="docutils literal notranslate"><span class="pre">optimize()</span></code></a></li>
@@ -19325,7 +19341,7 @@
       </ul>
     </div>  
     <div class="footer">
-    &copy; <a href="copyright.html">版權</a> 2001-2023, Python Software Foundation.
+    &copy; <a href="copyright.html">版權</a> 2001-2024, Python Software Foundation.
     <br />
     This page is licensed under the Python Software Foundation License Version 2.
     <br />
@@ -19339,7 +19355,7 @@
 <br />
     <br />
 
-    最後更新於 Dec 25, 2023 (07:37 UTC)。
+    最後更新於 Jan 09, 2024 (18:42 UTC)。
     <a href="/bugs.html">Found a bug</a>?
     <br />
 

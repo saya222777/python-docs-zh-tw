@@ -25,7 +25,7 @@
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜尋" href="../search.html" />
     <link rel="copyright" title="版權" href="../copyright.html" />
-    <link rel="next" title="pickletools --- Tools for pickle developers" href="pickletools.html" />
+    <link rel="next" title="pickletools --- pickle 開發者的工具" href="pickletools.html" />
     <link rel="prev" title="compileall --- Byte-compile Python libraries" href="compileall.html" />
     <link rel="canonical" href="https://docs.python.org/3/library/dis.html" />
     
@@ -161,7 +161,7 @@
   <div>
     <h4>下個主題</h4>
     <p class="topless"><a href="pickletools.html"
-                          title="下一章"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pickletools</span></code> --- Tools for pickle developers</a></p>
+                          title="下一章"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pickletools</span></code> --- pickle 開發者的工具</a></p>
   </div>
   <div role="note" aria-label="source link">
     <h3>此頁面</h3>
@@ -189,7 +189,7 @@
           <a href="../py-modindex.html" title="Python 模組索引"
              >模組</a> |</li>
         <li class="right" >
-          <a href="pickletools.html" title="pickletools --- Tools for pickle developers"
+          <a href="pickletools.html" title="pickletools --- pickle 開發者的工具"
              accesskey="N">下一頁</a> |</li>
         <li class="right" >
           <a href="compileall.html" title="compileall --- Byte-compile Python libraries"
@@ -532,16 +532,17 @@ object.</p>
 <dl class="py function">
 <dt class="sig sig-object py" id="dis.findlinestarts">
 <span class="sig-prename descclassname"><span class="pre">dis.</span></span><span class="sig-name descname"><span class="pre">findlinestarts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">code</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#dis.findlinestarts" title="Link to this definition">¶</a></dt>
-<dd><p>This generator function uses the <code class="docutils literal notranslate"><span class="pre">co_lines</span></code> method
-of the code object <em>code</em> to find the offsets which are starts of
+<dd><p>This generator function uses the <a class="reference internal" href="../reference/datamodel.html#codeobject.co_lines" title="codeobject.co_lines"><code class="xref py py-meth docutils literal notranslate"><span class="pre">co_lines()</span></code></a> method
+of the <a class="reference internal" href="../reference/datamodel.html#code-objects"><span class="std std-ref">code object</span></a> <em>code</em> to find the offsets which
+are starts of
 lines in the source code.  They are generated as <code class="docutils literal notranslate"><span class="pre">(offset,</span> <span class="pre">lineno)</span></code> pairs.</p>
 <div class="versionchanged">
 <p><span class="versionmodified changed">在 3.6 版的變更: </span>Line numbers can be decreasing. Before, they were always increasing.</p>
 </div>
 <div class="versionchanged">
-<p><span class="versionmodified changed">在 3.10 版的變更: </span>The <span class="target" id="index-0"></span><a class="pep reference external" href="https://peps.python.org/pep-0626/"><strong>PEP 626</strong></a> <code class="docutils literal notranslate"><span class="pre">co_lines</span></code> method is used instead of the
+<p><span class="versionmodified changed">在 3.10 版的變更: </span>The <span class="target" id="index-0"></span><a class="pep reference external" href="https://peps.python.org/pep-0626/"><strong>PEP 626</strong></a> <a class="reference internal" href="../reference/datamodel.html#codeobject.co_lines" title="codeobject.co_lines"><code class="xref py py-meth docutils literal notranslate"><span class="pre">co_lines()</span></code></a> method is used instead of the
 <a class="reference internal" href="../reference/datamodel.html#codeobject.co_firstlineno" title="codeobject.co_firstlineno"><code class="xref py py-attr docutils literal notranslate"><span class="pre">co_firstlineno</span></code></a> and <a class="reference internal" href="../reference/datamodel.html#codeobject.co_lnotab" title="codeobject.co_lnotab"><code class="xref py py-attr docutils literal notranslate"><span class="pre">co_lnotab</span></code></a>
-attributes of the code object.</p>
+attributes of the <a class="reference internal" href="../reference/datamodel.html#code-objects"><span class="std std-ref">code object</span></a>.</p>
 </div>
 </dd></dl>
 
@@ -2331,7 +2332,7 @@ scopes or names in outer scopes that are referenced from this scope.  It does
   <div>
     <h4>下個主題</h4>
     <p class="topless"><a href="pickletools.html"
-                          title="下一章"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pickletools</span></code> --- Tools for pickle developers</a></p>
+                          title="下一章"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pickletools</span></code> --- pickle 開發者的工具</a></p>
   </div>
   <div role="note" aria-label="source link">
     <h3>此頁面</h3>
@@ -2362,7 +2363,7 @@ scopes or names in outer scopes that are referenced from this scope.  It does
           <a href="../py-modindex.html" title="Python 模組索引"
              >模組</a> |</li>
         <li class="right" >
-          <a href="pickletools.html" title="pickletools --- Tools for pickle developers"
+          <a href="pickletools.html" title="pickletools --- pickle 開發者的工具"
              >下一頁</a> |</li>
         <li class="right" >
           <a href="compileall.html" title="compileall --- Byte-compile Python libraries"
@@ -2408,7 +2409,7 @@ scopes or names in outer scopes that are referenced from this scope.  It does
       </ul>
     </div>  
     <div class="footer">
-    &copy; <a href="../copyright.html">版權</a> 2001-2023, Python Software Foundation.
+    &copy; <a href="../copyright.html">版權</a> 2001-2024, Python Software Foundation.
     <br />
     This page is licensed under the Python Software Foundation License Version 2.
     <br />
@@ -2422,7 +2423,7 @@ scopes or names in outer scopes that are referenced from this scope.  It does
 <br />
     <br />
 
-    最後更新於 Dec 25, 2023 (07:37 UTC)。
+    最後更新於 Jan 09, 2024 (18:42 UTC)。
     <a href="/bugs.html">Found a bug</a>?
     <br />
 
